@@ -12,6 +12,24 @@
    padding-left: 30px;
 }
 
+.bg {
+z-index: 100;
+width: 100vw;
+position: fixed;
+
+}
+
+
+.behind {
+  z-index: -100;
+  /* background-color: gray; */
+  position: relative;
+  padding: 0px;
+  marin: 0px;
+
+}
+
+
 a:link {
   color: white;
   background-color: transparent;
@@ -36,12 +54,9 @@ a:active {
   text-decoration: underline;
 }
 
-img {
-width: 100vw;
-padding: 0px;
-  /* display: contents; */
-/* margin-top: -150px; */
-}
+
+
+
 
 /* svg {
   padding: 0;
