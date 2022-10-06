@@ -1,0 +1,62 @@
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: left;
+   padding:15px;
+   padding-left: 30px;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  background-color: white;
+  text-decoration: underline;
+}
+
+a:active {
+  color: white;
+  background-color: white;
+  text-decoration: underline;
+}
+
+img {
+width: 100vw;
+padding: 0px;
+  /* display: contents; */
+/* margin-top: -150px; */
+}
+
+/* svg {
+  padding: 0;
+  margin: 0;
+  display: contents;
+} */
+
+/* div {
+  padding-top: 0;
+  padding-bottom: 0;
+} */
+
+
+/* ul {
+  margin: 0px;
+  padding: 0px;
+
+} */
