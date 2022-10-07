@@ -19,6 +19,75 @@ position: fixed;
 
 }
 
+.blur {
+-webkit-backdrop-filter: blur(0px);
+}
+
+.hue_1 {
+  -webkit-backdrop-filter: blur(0px);
+  /* background: rgba(0, 0, 0, 0.0); */
+  backdrop-filter: blur(0px) hue-rotate(180deg) opacity(100%) brightness(500%);
+  height: 50vh;
+
+}
+
+.hue_2 {
+  -webkit-backdrop-filter: blur(0px);
+  /* background: rgba(0, 0, 0, 0.0); */
+  backdrop-filter: blur(0px) hue-rotate(90deg) opacity(100%) brightness(500%);
+  height: 50vh;
+
+}
+
+.hue_3 {
+  -webkit-backdrop-filter: blur(0px);
+  /* background: rgba(0, 0, 0, 0.0); */
+  backdrop-filter: blur(0px) hue-rotate(270deg) opacity(100%) brightness(500%);
+  height: 50vh;
+
+}
+
+
+.hue_4 {
+  -webkit-backdrop-filter: blur(0px);
+  /* background: rgba(0, 0, 0, 0.0); */
+  backdrop-filter: grayscale(100%) brightness(1000%);
+  height: 50vh;
+
+}
+
+.copy_1 {
+/* width: 40vw; */
+color: white;
+background: rgba(0, 0, 0, 0.1);
+-webkit-backdrop-filter: blur(2px);
+backdrop-filter: blur(0px) hue-rotate(30deg);
+margin-left: 25%;
+margin-right: 25%;
+position: relative;
+z-index: 10000;
+padding: 23px;
+font-size: 23px;
+font-family: sans-serif;
+position: relative;
+}
+
+.copy_2 {
+  /* width: 40vw; */
+  color: white;
+  background: rgba(0, 0, 0, 0.0);
+  -webkit-backdrop-filter: blur(0px);
+  backdrop-filter: blur(0px) hue-rotate(90deg);
+  margin-left: 25%;
+  margin-right: 25%;
+  position: relative;
+  z-index: 10000;
+  padding: 23px;
+  font-size: 23px;
+  font-family: sans-serif;
+  position: absolute;
+  }
+
 
 .behind {
   z-index: -100;
