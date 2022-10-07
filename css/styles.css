@@ -6,11 +6,32 @@
    bottom: 0;
    width: 100%;
    background-color: black;
-   color: white;
+   /* color: white; */
    text-align: left;
    padding:15px;
    padding-left: 30px;
 }
+
+
+.link {
+
+  color: white;
+  display: inline-block;
+  /* padding-left: 10px;
+  padding-right: 10px; */
+  position: relative;
+}
+
+.current {
+  background-color: white;
+  color: black;
+  display: inline-block;
+  /* padding-left: 5px; */
+  /* padding-right: */
+}
+
+
+
 
 .bg {
 z-index: 100;
@@ -63,6 +84,8 @@ position: fixed;
 
 
 }
+
+
 
 .copy_1 {
 /* width: 40vw; */
